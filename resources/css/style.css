@@ -13,6 +13,20 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
 #landing {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
@@ -20,5 +34,35 @@ h1 {
 
 #main-nav a {
   font-size: 18px;
+  color: white;
+}
+
+#about {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("../images/the-flatiron-building.png")
+}
+
+#copywrite {
+  display: inline;
+}
+
+footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
+
+footer nav ul {
+  display: inline;
+}
+
+footer nav li {
+  display: inline;
+}
+
+#footer-nav a {
   color: white;
 }
